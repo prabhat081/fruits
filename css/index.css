@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ddd;
+}
+
+.d-none{
+	display: none;
+}
+
+.d-block{
+	display: block;
+}
+
+.bg-black{
+	background: #000;
+}
+
+.container{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background: #fff;
+	height: 100vh;
+	padding: 30px;
+}
+
+.container h1{
+	text-align: center;
+	padding: 15px 0px;
+	color: #dddddd;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+
+label{
+	display: inline-block;
+	color: #000;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+select{
+	width: 300px;
+	height: 40px;
+	border:1px solid #ddd;
+	padding: 8px ;
+	outline: none;
+	padding: 5px 0px;
+	margin-bottom: 5px;
+}
+
+.add-fruits{
+	width: 100px;
+	padding: 10px 5px;
+	background-color: #C94808;
+	color: white;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px #000;
+	text-transform: capitalize;
+	margin: 5px 0px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.fruits-area{
+	width: 300px;
+	height: auto;
+}
+
+.fruits-input{
+	width: 100%;
+	padding: 10px;
+	height: 40px;
+	border:1px solid #ddd;
+	margin-bottom: 5px;
+	outline: none;
+}
+
+.left_side{
+	float: left;
+}
+
+.right_side{
+	float: left;
+	padding: 30px 40px;
+	width: 400px;
+}
+
+h2{
+	text-transform: capitalize;
+	text-align: left;
+}
+
+.right_side input[type="color"]{
+	width: 50px;
+	border:1px solid #ddd;
+	margin: 10px 0px;
+}
+
+.right_side input[type="number"]{
+	border:1px solid #ddd;
+	width: 120px;
+	padding: 20px 10px;
+	outline: none;
+	width: 100%;
+}
